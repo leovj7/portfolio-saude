@@ -93,3 +93,98 @@ footer {
     background-color: #f4f4f4;
     margin-top: 40px;
 }
+
+.foto-perfil {
+      width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+  border: 3px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fonte padrão */
+body {
+  font-family: 'Outfit', sans-serif;
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Container principal */
+.container {
+  max-width: 500px;
+  width: 100%;
+}
+
+/* Cartão estiloso */
+.card {
+  background-color: #1f2a40;
+  border-radius: 20px;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Foto de perfil */
+.foto-perfil {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #00bcd4;
+  box-shadow: 0 4px 10px rgba(0, 188, 212, 0.5);
+  margin-bottom: 20px;
+}
+
+/* Nome */
+.card h1 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+/* Descrição */
+.descricao {
+  font-size: 1em;
+  color: #b0bec5;
+  margin-bottom: 25px;
+}
+
+/* Links */
+.links a {
+  display: block;
+  margin: 10px 0;
+  padding: 12px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #00bcd4;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.links a i {
+  margin-right: 10px;
+}
+
+.links a:hover {
+  background-color: #008c9e;
+  transform: scale(1.05);
+}
